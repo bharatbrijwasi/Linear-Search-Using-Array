@@ -7,6 +7,7 @@ public class MyMain {
 		Test obj = new Test(10);
 		obj.add();
 		System.out.println(obj.isFound(10));
+		System.out.println();
  	}
 
 }
