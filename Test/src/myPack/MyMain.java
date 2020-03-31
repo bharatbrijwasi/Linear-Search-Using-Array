@@ -4,8 +4,9 @@ public class MyMain {
 
 	public static void main(String[] args) 
 	{
-		MyQueue obj = new MyQueue();
-		System.out.println("name" +obj.displayName());
-	}
+		Test obj = new Test(10);
+		obj.add();
+		System.out.println(obj.isFound(10));
+ 	}
 
 }
