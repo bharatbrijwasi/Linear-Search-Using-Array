@@ -13,7 +13,7 @@ public class Test
 		Scanner sc = new Scanner(System.in);
 		for(int i = 0; i < arr.length; i++)
 		{
-			System.out.print(1+i +"-Element:");
+			System.out.print(+i +"-Element:");
 			arr[i] = sc.nextInt();
 		}
 	}
